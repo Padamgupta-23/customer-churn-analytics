@@ -102,14 +102,12 @@ customer-churn-analytics/
     └── threshold_analysis.py
 ```
 
-Some generated files may be recreated by the pipeline. Keep the model artifact and report files required by the dashboard available in the deployed repository, or update the app to generate/load them as part of deployment.
-
 ## Run Locally
 
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Padamgupta-23/customer-churn-analytics
 cd customer-churn-analytics
 ```
 
@@ -134,7 +132,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Make sure `requirements.txt` includes all packages imported by both the training pipeline and the Streamlit app, including `streamlit`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, and `joblib`.
+The dependencies listed in `requirements.txt` cover the data-processing pipeline, machine learning workflow, visualizations, and Streamlit dashboard.
 
 ### 4. Start the dashboard
 
@@ -158,7 +156,7 @@ Then regenerate the customer-level retention report if needed:
 python -m src.retention_report
 ```
 
-Run the pipeline before starting the app if the model or report artifacts are missing. The exact generated files depend on the current pipeline implementation.
+Run the pipeline first when you want to regenerate the model and analysis outputs from the raw dataset.
 
 ## Deploy on Streamlit Community Cloud
 
@@ -169,15 +167,9 @@ Run the pipeline before starting the app if the model or report artifacts are mi
 5. Deploy and wait for the build to finish.
 6. Open the public app URL and test all four pages, customer search, filters, charts, and CSV download.
 
-**Important:** Streamlit Community Cloud runs the app for visitors. People who visit your GitHub repository can click the deployed app link in the README and use the web app in their browser; they do not need to install Python. If you only upload the code to GitHub and do not deploy it, visitors will see the source code but will not automatically get a running website.
-
-Deployment checklist:
-- Add the deployed URL to the **Live Demo** section above.
-- Commit the correct `requirements.txt`.
-- Do not commit `.venv/`, secrets, API keys, or personal files.
-- Confirm the dataset license and redistribution terms before uploading the raw CSV.
-- Check repository size and hosting limits before committing large model/data artifacts.
-- Test the deployed app from a browser session that is not relying on your local files.
+Before deploying, ensure that all required dependencies and application
+artifacts are available in the repository. Never commit secrets, API keys,
+or personal files.
 
 ## Responsible Interpretation and Limitations
 
@@ -197,13 +189,20 @@ Deployment checklist:
 - Add automated tests for data preparation, feature consistency, and report generation.
 - Improve explanations with carefully validated local explanations if needed.
 
-## Author
+
+## 👨‍💻 About Me
 
 **Padam Gupta**  
-B.Tech Computer Science & Engineering | Data Science & Machine Learning
+B.Tech CSE | Data Science & Machine Learning
 
-Add your LinkedIn and other portfolio links here if you want them displayed.
+- **GitHub:** [@Padamgupta-23](https://github.com/Padamgupta-23)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/padam-gupta/)
 
+I'm always learning, building, and turning ideas into useful projects.
+
+If you find this project interesting, consider giving the repository a ⭐!
+
+### © 2026 Padam Gupta
+
+Made with curiosity, code, and love❤️ All rights reserved.
 ---
-
-If you use or adapt this project, verify the dataset source and license and describe the model results accurately.
