@@ -860,4 +860,4 @@ elif selected_page == "Retention Insights":
 # ============================================================
 
 st.sidebar.divider()
-st.sidebar.caption("Customer Churn Analytics | Portfolio Project")
+st.sidebar.caption("Customer Churn Analytics")
