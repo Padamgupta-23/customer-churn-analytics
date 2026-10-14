@@ -1,0 +1,80 @@
+Feature,Coefficient,Absolute_Importance,Direction
+categorical__Contract_Month-to-Month,1.6780946554551754,1.6780946554551754,Higher predicted churn odds
+categorical__Contract_Two Year,-1.6036122674989306,1.6036122674989306,Lower predicted churn odds
+categorical__Value_Deal_Deal 5,1.0694179706296614,1.0694179706296614,Higher predicted churn odds
+categorical__State_Jammu & Kashmir,1.0227055302268944,1.0227055302268944,Higher predicted churn odds
+categorical__State_Assam,0.9209185407822564,0.9209185407822564,Higher predicted churn odds
+categorical__State_Jharkhand,0.7761699774917318,0.7761699774917318,Higher predicted churn odds
+categorical__Payment_Method_Credit Card,-0.6618374757599031,0.6618374757599031,Lower predicted churn odds
+categorical__Payment_Method_Mailed Check,0.6187657545175134,0.6187657545175134,Higher predicted churn odds
+categorical__Value_Deal_Deal 2,-0.608222431347478,0.608222431347478,Lower predicted churn odds
+numerical__Monthly_Charge,0.5855055294718656,0.5855055294718656,Higher predicted churn odds
+categorical__Value_Deal_Deal 3,-0.5673918057452932,0.5673918057452932,Lower predicted churn odds
+categorical__State_Punjab,-0.5155204394097906,0.5155204394097906,Lower predicted churn odds
+categorical__State_Uttarakhand,-0.4832451528296076,0.4832451528296076,Lower predicted churn odds
+categorical__State_Bihar,0.46834840733841265,0.46834840733841265,Higher predicted churn odds
+categorical__State_Chhattisgarh,-0.44880365191332044,0.44880365191332044,Lower predicted churn odds
+categorical__Premium_Support_Yes,-0.43051853854113,0.43051853854113,Lower predicted churn odds
+categorical__State_Maharashtra,-0.405187861868068,0.405187861868068,Lower predicted churn odds
+categorical__State_Kerala,-0.4032341655890925,0.4032341655890925,Lower predicted churn odds
+categorical__Value_Deal_Deal 4,-0.3873312445479425,0.3873312445479425,Lower predicted churn odds
+categorical__State_Puducherry,0.3691990901596095,0.3691990901596095,Higher predicted churn odds
+categorical__Online_Security_Yes,-0.34934022469372233,0.34934022469372233,Lower predicted churn odds
+categorical__State_Karnataka,-0.32311769336063234,0.32311769336063234,Lower predicted churn odds
+numerical__Age,0.3112143194246594,0.3112143194246594,Higher predicted churn odds
+categorical__Phone_Service_Yes,-0.30151574649980584,0.30151574649980584,Lower predicted churn odds
+categorical__State_Madhya Pradesh,-0.2995023330562089,0.2995023330562089,Lower predicted churn odds
+categorical__Contract_One Year,-0.28201812865179615,0.28201812865179615,Lower predicted churn odds
+categorical__State_Tamil Nadu,-0.27755557952333965,0.27755557952333965,Lower predicted churn odds
+categorical__Premium_Support_No,0.2699534573501494,0.2699534573501494,Higher predicted churn odds
+categorical__Paperless_Billing_No,-0.24956414417455133,0.24956414417455133,Lower predicted churn odds
+categorical__Online_Backup_Yes,-0.23676534758392584,0.23676534758392584,Lower predicted churn odds
+categorical__State_Gujarat,-0.22720062921545092,0.22720062921545092,Lower predicted churn odds
+categorical__Married_Yes,-0.2082390959710595,0.2082390959710595,Lower predicted churn odds
+categorical__Value_Deal_Deal 1,0.20321339201870284,0.20321339201870284,Higher predicted churn odds
+categorical__Device_Protection_Plan_Yes,-0.19836404857210518,0.19836404857210518,Lower predicted churn odds
+categorical__Online_Security_No,0.18877514350274097,0.18877514350274097,Higher predicted churn odds
+categorical__Multiple_Lines_Yes,-0.17577419394750113,0.17577419394750113,Lower predicted churn odds
+categorical__Payment_Method_Bank Withdrawal,-0.16446401945315925,0.16446401945315925,Lower predicted churn odds
+categorical__Internet_Type_DSL,-0.16424715749512034,0.16424715749512034,Lower predicted churn odds
+categorical__Internet_Service_Yes,-0.16056508119098403,0.16056508119098403,Lower predicted churn odds
+categorical__Gender_Male,-0.14113331351230538,0.14113331351230538,Lower predicted churn odds
+categorical__Streaming_Music_No,-0.13194948834586157,0.13194948834586157,Lower predicted churn odds
+categorical__Multiple_Lines_No,-0.1257415525522981,0.1257415525522981,Lower predicted churn odds
+categorical__State_Andhra Pradesh,-0.1203756276603474,0.1203756276603474,Lower predicted churn odds
+categorical__Streaming_Movies_No,-0.11946942203216407,0.11946942203216407,Lower predicted churn odds
+categorical__State_Telangana,-0.11843703393975684,0.11843703393975684,Lower predicted churn odds
+categorical__Unlimited_Data_Yes,-0.11613326083989561,0.11613326083989561,Lower predicted churn odds
+categorical__State_Rajasthan,-0.09715124252033547,0.09715124252033547,Lower predicted churn odds
+categorical__State_Uttar Pradesh,-0.09613447675595413,0.09613447675595413,Lower predicted churn odds
+categorical__Phone_Service_No,0.09398000580424619,0.09398000580424619,Higher predicted churn odds
+categorical__Multiple_Lines_Not Applicable,0.09398000580424619,0.09398000580424619,Higher predicted churn odds
+categorical__Streaming_TV_Yes,-0.09197230644598553,0.09197230644598553,Lower predicted churn odds
+categorical__Value_Deal_Unknown,0.082778378296795,0.082778378296795,Higher predicted churn odds
+categorical__Online_Backup_No,0.07620026639294253,0.07620026639294253,Higher predicted churn odds
+categorical__Streaming_TV_No,-0.06859277474499666,0.06859277474499666,Lower predicted churn odds
+categorical__Gender_Female,-0.06640242718324525,0.06640242718324525,Lower predicted churn odds
+numerical__Tenure_in_Months,-0.06016226363591862,0.06016226363591862,Lower predicted churn odds
+categorical__State_Haryana,0.05477303275232442,0.05477303275232442,Higher predicted churn odds
+categorical__State_Odisha,-0.04752789292650104,0.04752789292650104,Lower predicted churn odds
+categorical__Unlimited_Data_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Streaming_Movies_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Streaming_Music_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Internet_Service_No,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Internet_Type_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Online_Security_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Online_Backup_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Device_Protection_Plan_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Streaming_TV_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Premium_Support_Not Applicable,-0.046970659504568336,0.046970659504568336,Lower predicted churn odds
+categorical__Unlimited_Data_No,-0.044431820351087094,0.044431820351087094,Lower predicted churn odds
+categorical__State_Delhi,0.043125512149515634,0.043125512149515634,Higher predicted churn odds
+categorical__Paperless_Billing_Yes,0.042028403478995065,0.042028403478995065,Higher predicted churn odds
+categorical__Streaming_Movies_Yes,-0.04109565915881693,0.04109565915881693,Lower predicted churn odds
+categorical__Device_Protection_Plan_No,0.03779896738112297,0.03779896738112297,Higher predicted churn odds
+categorical__Streaming_Music_Yes,-0.028615592845118967,0.028615592845118967,Lower predicted churn odds
+categorical__Internet_Type_Cable,0.012905953861027905,0.012905953861027905,Higher predicted churn odds
+categorical__Internet_Type_Fiber Optic,-0.009223877556889803,0.009223877556889803,Lower predicted churn odds
+numerical__Number_of_Referrals,-0.0020339929358278107,0.0020339929358278107,Lower predicted churn odds
+categorical__Married_No,0.000703355275509148,0.000703355275509148,Higher predicted churn odds
+categorical__State_West Bengal,0.00021794897211114644,0.00021794897211114644,Higher predicted churn odds

@@ -1,0 +1,5 @@
+Outcome,Count,Business_Meaning
+Correctly predicted Stayed,720,Customers correctly identified as staying
+Incorrectly flagged as Churned,135,Customers flagged for retention who actually stayed
+Missed Churners,96,Customers who churned but were not flagged
+Correctly detected Churners,251,Churners the model successfully identified

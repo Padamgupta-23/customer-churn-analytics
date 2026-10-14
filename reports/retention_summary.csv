@@ -1,0 +1,4 @@
+Risk_Category,Customer_Count,Average_Churn_Probability,Percentage_of_Records
+High,1243,0.7548,20.69
+Low,3603,0.0752,59.98
+Medium,1161,0.4517,19.33
