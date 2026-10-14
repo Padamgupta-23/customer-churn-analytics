@@ -2,7 +2,7 @@
 
 An end-to-end machine learning and analytics project that estimates customer churn risk, compares classification models, and helps prioritize customer-retention actions through an interactive Streamlit dashboard.
 
-> **Portfolio project:** Python · Pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Streamlit
+> **Technologies:** Python · Pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Streamlit
 
 ## Live Demo
 
