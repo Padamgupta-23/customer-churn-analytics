@@ -6,8 +6,8 @@ An end-to-end machine learning and analytics project that estimates customer chu
 
 ## Live Demo
 
-- **Streamlit app:** _Add your deployed Streamlit URL here after deployment._
-- **GitHub repository:** _Add your repository URL here._
+- **Streamlit app:** https://customer-churn-analytics-model.streamlit.app/
+- **GitHub repository:** https://github.com/Padamgupta-23/customer-churn-analytics
 
 ## Overview
 
